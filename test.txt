@@ -1,0 +1,11 @@
+read x; 
+if a < b then x := 1;
+x:=3; 
+x:=10;
+repeat 
+fact := x;
+x := x+1;
+until x=0;
+write fact;
+i:=i/1;
+end
